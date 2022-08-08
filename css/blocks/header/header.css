@@ -1,9 +1,10 @@
 .header {
     padding-top: 30px;
     display: grid;
-    grid-template-columns: repeat(4,100px);
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(1,40px);
     gap: 40px;
+    max-width: 1920px;
 }
 
 header div {
