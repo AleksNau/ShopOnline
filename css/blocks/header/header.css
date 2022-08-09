@@ -5,20 +5,63 @@
     grid-template-rows: repeat(1,40px);
     gap: 40px;
     max-width: 1920px;
+    align-items: center;
+}
+.header__logo {
+    background-image: url(./icons/logo.png);
+    width: 190px;
+    height: 41px;
+    background-repeat: no-repeat;
 }
 
-header div {
-    background-color: blue;
+.header__button-menu {
+    background-image: url(./icons/menu.svg);
+    background-position: left center;
+    width: 151px;
+    height: 54px;
+    background-color: #3670C7;
+    color: #EFEFEF;
+    border-radius: 10px;
+    border-style: none;
+    background-repeat: no-repeat;
 }
 
+.header__icon {
+    background-repeat: no-repeat;
+}
+
+.header__icon:nth-child(1) {
+    background-image: url(./icons/person.svg);
+    width: 40px;
+    height: auto;
+}
+
+.header__icon:nth-child(2) {
+    background-image: url(./icons/favorite.svg);
+    width: 40px;
+    height: auto;
+}
+
+.header__icon:nth-child(3) {
+    background-image: url(./icons/shopping_cart.svg);
+    width: 40px;
+    height: auto;
+}
+
+.header__search {
+    width: 757px;
+    height: 54px;
+    background: #EFEFEF;
+    border-radius: 30px;
+    border-style: none;
+}
+.header__user-menu {
+    gap: 30px;
+}
 .header__user-menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1,40px)
-}
-
-.header__icon {
-    background-color: yellow;
 }
 
 @media (max-width: 1024px){
