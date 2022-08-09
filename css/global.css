@@ -85,11 +85,18 @@ label:active, label:focus { outline: none; }
   padding: 0 75px 91px;
 }
 
+.conteiner:first-child {
+  padding-bottom: 0;
+}
+
 @media (max-width: 1024px){
   .conteiner {
     padding-left: 42px;
     padding-right: 38px;
     padding-bottom: 92px;
+  }
+  .conteiner:first-child {
+    padding-bottom: 0;
   }
 }
 
@@ -97,10 +104,16 @@ label:active, label:focus { outline: none; }
   .conteiner {
     padding: 0 34px 65px;
   }
+  .conteiner:first-child {
+    padding-bottom: 0;
+  }
 }
 
 @media (max-width: 320px){
   .conteiner {
     padding: 0 20px 43px;
+  }
+  .conteiner:first-child {
+    padding-bottom: 0;
   }
 }

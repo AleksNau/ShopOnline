@@ -2,22 +2,25 @@
     padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(1,40px);
     gap: 40px;
     max-width: 1920px;
     align-items: center;
 }
 .header__logo {
     background-image: url(./icons/logo.png);
-    width: 190px;
+    width: 1fr;
     height: 41px;
+    background-position: center;
     background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    padding-left: 60px;
 }
 
 .header__button-menu {
     background-image: url(./icons/menu.svg);
     background-position: left center;
-    width: 151px;
+    width: 1fr;
     height: 54px;
     background-color: #3670C7;
     color: #EFEFEF;
@@ -26,30 +29,9 @@
     background-repeat: no-repeat;
 }
 
-.header__icon {
-    background-repeat: no-repeat;
-}
-
-.header__icon:nth-child(1) {
-    background-image: url(./icons/person.svg);
-    width: 40px;
-    height: auto;
-}
-
-.header__icon:nth-child(2) {
-    background-image: url(./icons/favorite.svg);
-    width: 40px;
-    height: auto;
-}
-
-.header__icon:nth-child(3) {
-    background-image: url(./icons/shopping_cart.svg);
-    width: 40px;
-    height: auto;
-}
 
 .header__search {
-    width: 757px;
+    width: 4fr;
     height: 54px;
     background: #EFEFEF;
     border-radius: 30px;
@@ -57,12 +39,38 @@
 }
 .header__user-menu {
     gap: 30px;
+    width: 1fr;
 }
 .header__user-menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1,40px)
 }
+
+.header__icon {
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center top;
+}
+
+.header__icon:nth-child(1) {
+    background-image: url(./icons/person.svg);
+    background-size: 24px auto;
+}
+
+.header__icon:nth-child(2) {
+    background-image: url(./icons/favorite.svg);
+    background-size: 24px auto;
+}
+
+.header__icon:nth-child(3) {
+    background-image: url(./icons/shopping_cart.svg);
+    background-size: 24px auto;
+}
+
 
 @media (max-width: 1024px){
     .header {
