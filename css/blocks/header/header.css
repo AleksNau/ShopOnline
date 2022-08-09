@@ -19,7 +19,9 @@
 
 .header__button-menu {
     background-image: url(./icons/menu.svg);
-    background-position: left center;
+    background-size: 24px auto;
+    background-position-x: 80px;
+    background-position-y: center;
     width: 1fr;
     height: 54px;
     background-color: #3670C7;
