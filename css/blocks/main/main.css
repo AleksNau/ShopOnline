@@ -2,11 +2,12 @@
     margin: 0 auto;
     padding-top: 90px;
     display: grid;
-    grid-template-columns: repeat(6,245px);
+    grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(6,228px);
     gap: 60px;
+    width: 100%;
 }
-hc
+
 .main__card {
     width: 100%;
     height: auto;
@@ -82,9 +83,9 @@ hc
 @media (max-width: 1024px){
     .main {
         padding-top: 60px;
-        grid-template-columns: repeat(4,217px);
+        grid-template-columns: repeat(4,1fr);
         grid-template-rows: repeat(8,202px);
-        gap: 60px;
+        gap: 50px;
     }
 
     .main__card1 {
@@ -141,9 +142,9 @@ hc
 @media (max-width: 768px){
     .main {
         padding-top: 50px;
-        grid-template-columns: repeat(6,140px);
+        grid-template-columns: repeat(6,1fr);
         grid-template-rows: repeat(6,130px);
-        gap: 60px;
+        gap: 40px;
     }
 
     .main__card1 {
@@ -200,9 +201,9 @@ hc
 @media (max-width: 320px){
     .main {
         padding-top: 41px;
-        grid-template-columns: repeat(2,130px);
+        grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(12,120px);
-        gap: 60px;
+        gap: 20px;
     }
 
     .main__card1 {
