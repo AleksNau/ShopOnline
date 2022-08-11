@@ -1,7 +1,7 @@
 .header {
     padding-top: 30px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4,auto);
     gap: 40px;
     max-width: 100%;
     align-items: center;
@@ -10,18 +10,19 @@
 }
 .header__logo {
     background-image: url(./icons/logo.png);
-    width: 1fr;
     height: 41px;
     background-position: center;
     background-repeat: no-repeat;
     grid-area: logo;
+    min-width: 114px;
+    max-width: 190px;
 }
 
 .header__button-menu {
     background-image: url(./icons/menu.svg);
     background-size: 24px auto;
     background-position-y: center;
-    width: 1fr;
+    max-width: 151px;
     height: 54px;
     background-color: #3670C7;
     color: #EFEFEF;
@@ -33,7 +34,7 @@
 
 
 .header__search {
-    width: 4fr;
+    max-width: 757px;
     height: 54px;
     background: #EFEFEF;
     border-radius: 30px;
