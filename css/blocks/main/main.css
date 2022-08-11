@@ -2,8 +2,8 @@
     margin: 0 auto;
     padding-top: 90px;
     display: grid;
-    grid-template-columns: fit-content(217px);
-    grid-template-rows: repeat(6,228px);
+    grid-template-columns: repeat(6,minmax(130px,245px));
+    grid-template-rows: repeat(6,minmax(120px,228px));
     gap: 60px;
     width: 100%;
 }
@@ -27,9 +27,11 @@
 .main__card2 {
     background-image: url(./image/card2.jpg);
     grid-row: 3/4;
+    grid-column: 1/2;
 }
 .main__card3 {
     background-image: url(./image/card3.jpg);
+    grid-column: 2/3;
     grid-row: 3/4;
 }
 .main__card4 {
