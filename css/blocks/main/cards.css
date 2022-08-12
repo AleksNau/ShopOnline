@@ -1,11 +1,12 @@
 .card1__par {
-    margin: 0 auto;
-
+    text-align: center;
 }
 .card1__title {
     font-weight: 700;
     font-size: 70px;
     line-height: 130%;
+    margin-bottom: 100px;
+    padding-left: 112px;
 }
 
 .number {
@@ -25,6 +26,8 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 130%;
+    white-space: nowrap;
+    margin-bottom: 14px;
 }
 
 .blue__bord {
@@ -33,6 +36,7 @@
     line-height: 120%;
     background-color: #38C0EB;
     border-radius: 20px;
+    padding: 24px 26px;
 }
 
 .card7__p {
