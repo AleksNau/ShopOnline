@@ -8,6 +8,7 @@
     grid-template-areas:
             "logo menu search icons";
 }
+
 .header__logo {
     background-image: url(./icons/logo.png);
     height: 41px;
