@@ -137,6 +137,10 @@
             "search search ";
     }
 
+    .header__logo {
+        width: 114px;
+    }
+
     .header__search {
         width: 1fr;
     }
@@ -147,7 +151,7 @@
     }
 
     .header__user-menu {
-        gap: 30px;
+        gap: 26px;
         width: 1fr;
         grid-area: icons;
     }
