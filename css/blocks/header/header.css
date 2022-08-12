@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
     grid-area: logo;
     min-width: 114px;
-    width: 190px;
+    max-width: 190px;
 }
 
 .header__button-menu {
@@ -39,7 +39,7 @@
 
 
 .header__search {
-    width: 757px;
+    max-width: 757px;
     height: 54px;
     background: #EFEFEF;
     border-radius: 30px;
