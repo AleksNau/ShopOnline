@@ -83,7 +83,7 @@
     .header {
         padding-top: 40px;
         grid-template-areas:
-            "logo logo . icons"
+            "logo logo logo icons"
             "menu search search search"
             ;
     }
@@ -117,8 +117,21 @@
     .header {
         padding-top: 20px;
         grid-template-areas:
-            "logo  ."
+            "logo logo"
             "menu  icons"
             "search search ";
+    }
+    .header__search {
+
+        width: 1fr;
+    }
+    .header__user-menu {
+        gap: 30px;
+        width: 1fr;
+        grid-area: icons;
+    }
+
+    .header__icon {
+        width: 1fr;
     }
 }

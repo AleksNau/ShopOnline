@@ -3,5 +3,6 @@
 @import "variables.css";
 @import "blocks/header/header.css";
 @import "blocks/main/main.css";
+@import "blocks/main/cards.css";
 
 

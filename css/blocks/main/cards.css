@@ -1,0 +1,67 @@
+.card1__par {
+    margin: 0 auto;
+
+}
+.card1__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 130%;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+}
+
+.card2__p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.card3__p {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+
+.blue__bord {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    background-color: #38C0EB;
+    border-radius: 20px;
+}
+
+.card7__p {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+}
+
+.whitebord {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #F91155;
+    border-radius: 20px;
+    max-width: 643px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.discount {
+    background-color: #FFBD13;
+    text-align: center;
+    width: 88px;
+    height: 88px;
+    align-items: center;
+    border-radius: 150%;
+    line-height: 88px;
+}
+
+
