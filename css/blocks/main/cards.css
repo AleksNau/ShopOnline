@@ -30,6 +30,12 @@
     margin-bottom: 14px;
 }
 
+.card10__p {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+
 .blue__bord {
     font-weight: 400;
     font-size: 40px;
