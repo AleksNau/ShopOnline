@@ -94,6 +94,9 @@
             "menu search search search"
             ;
     }
+    .header__button-menu {
+
+    }
 }
 
 @media (max-width: 768px){
@@ -103,6 +106,11 @@
     .header__icon {
         font-size: 12px;
         line-height: 130%;
+    }
+
+    .header__button-menu {
+        width: 115px;
+        font-size: 16px;
     }
 
     .header__icon:nth-child(1) {
@@ -128,10 +136,16 @@
             "menu  icons"
             "search search ";
     }
-    .header__search {
 
+    .header__search {
         width: 1fr;
     }
+
+    .header__button-menu {
+        width: 79px;
+        font-size: 12px;
+    }
+
     .header__user-menu {
         gap: 30px;
         width: 1fr;
