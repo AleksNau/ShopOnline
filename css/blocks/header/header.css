@@ -131,6 +131,7 @@
 @media (max-width: 320px){
     .header {
         padding-top: 20px;
+        grid-template-columns: repeat(2,auto);
         grid-template-areas:
             "logo logo"
             "menu  icons"
@@ -157,6 +158,10 @@
     }
 
     .header__icon {
-        width: 1fr;
+        width: 20px;
+    }
+
+    .icon__text {
+        display: none;
     }
 }
