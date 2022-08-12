@@ -19,9 +19,6 @@
 }
 
 .header__button-menu {
-    background-image: url(./icons/menu.svg);
-    background-size: 24px auto;
-    background-position-y: center;
     max-width: 151px;
     height: 54px;
     background-color: #3670C7;
@@ -32,6 +29,14 @@
     grid-area: menu;
 }
 
+.menu__text:before {
+    content: "";
+    background-image: url(./icons/menu.svg);
+    background-size: 24px auto;
+    width: 24px;
+    height: 24px;
+}
+
 
 .header__search {
     max-width: 757px;
@@ -40,6 +45,9 @@
     border-radius: 30px;
     border-style: none;
     grid-area: search;
+    padding-left: 40px;
+    padding-bottom: 18px;
+    padding-top: 14px;
 }
 .header__user-menu {
     gap: 30px;
