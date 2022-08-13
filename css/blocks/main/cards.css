@@ -1,6 +1,9 @@
 .card1__par {
     text-align: center;
 }
+.card1__par-ending {
+    margin-bottom: 5px;
+}
 .card1__title {
     font-weight: 700;
     font-size: 70px;
@@ -49,6 +52,8 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .whitebord {
@@ -72,6 +77,11 @@
     align-items: center;
     border-radius: 150%;
     line-height: 88px;
+}
+
+.discount-inline{
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (max-width: 1024px) {
@@ -115,8 +125,10 @@
     .whitebord {
         font-size: 30px;
         max-width: 513px;
+        max-height: 83px;
         text-align: center;
-        padding: 47px 24px 46px 23px;
+        border-radius: 16px;
+        padding: 24px 0;
     }
 }
 
@@ -161,8 +173,10 @@
     .whitebord {
         font-size: 20px;
         max-width: 347px;
+        max-height: 68px;
         text-align: center;
-        padding: 34px 22px 33px 22px;
+        border-radius: 12px;
+        padding: 22px 0;
     }
 
     .discount {
@@ -212,8 +226,10 @@
     .whitebord {
         font-size: 12px;
         max-width: 250px;
+        max-height: 30px;
         text-align: center;
-        padding: 41px 7px 41px 9px;
+        border-radius: 6px;
+        padding: 8px 0;
     }
 }
 
