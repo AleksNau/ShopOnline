@@ -304,19 +304,23 @@
     }
 
     .main__card9 {
-        grid-column: 2/3;
-        grid-row: 10/11;
+        grid-column: 1/2;
+        grid-row: 10/12;
+
         padding: 5px;
     }
 
     .main__card10 {
         grid-column: 2/3;
-        grid-row: 11/12;
+        grid-row: 10/11;
+
+
     }
 
     .main__card11 {
-        grid-column: 1/2;
-        grid-row: 10/12;
+        grid-column: 2/3;
+        grid-row: 11/12;
+
         padding: 10px;
     }
 

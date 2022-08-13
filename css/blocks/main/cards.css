@@ -4,6 +4,7 @@
 .card1__par-ending {
     margin-bottom: 5px;
 }
+
 .card1__title {
     font-weight: 700;
     font-size: 70px;
@@ -21,15 +22,20 @@
 .card2__p {
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 130%;
 }
 
+.card2__p-smallpart{
+    font-size: 28px;
+    font-weight: 400;
+}
+
 .card3__p {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 30px;
     line-height: 130%;
-    white-space: nowrap;
+
     margin-bottom: 14px;
 }
 
@@ -46,6 +52,9 @@
     background-color: #38C0EB;
     border-radius: 20px;
     padding: 24px 26px;
+}
+.blue__bord-smallpart {
+    font-size: 30px;
 }
 
 .card7__p {
@@ -103,6 +112,10 @@
     .card2__p {
         font-size: 30px;
     }
+    .card2__p-smallpart{
+        font-size: 26px;
+        font-weight: 400;
+    }
 
     .card3__p {
         font-size: 24px;
@@ -119,6 +132,10 @@
     .blue__bord {
         font-size: 30px;
         padding: 25px 24px 27px 32px;
+    }
+
+    .blue__bord-smallpart {
+        font-size: 26px;
     }
 
 
@@ -149,7 +166,11 @@
     }
 
     .card2__p {
-        font-size: 26px;
+        font-size: 20px;
+    }
+    .card2__p-smallpart{
+        font-size: 16px;
+        font-weight: 400;
     }
 
     .card3__p {
@@ -167,6 +188,10 @@
     .blue__bord {
         font-size: 16px;
         padding: 26px 12px 30px 20px;
+    }
+
+    .blue__bord-smallpart {
+        font-size: 12px;
     }
 
 
@@ -204,6 +229,10 @@
     .card2__p {
         font-size: 16px;
     }
+    .card2__p-smallpart{
+        font-size: 14px;
+        font-weight: 400;
+    }
 
     .card3__p {
         font-size: 12px;
@@ -220,6 +249,9 @@
     .blue__bord {
         font-size: 12px;
         padding: 25px 7px 25px 11px;
+    }
+    .blue__bord-smallpart {
+        font-size: 10px;
     }
 
 
