@@ -1,11 +1,11 @@
-.card1__par {
+.main__card-notebook__par {
     text-align: center;
 }
-.card1__par-ending {
+.main__card-notebook__par-ending {
     margin-bottom: 5px;
 }
 
-.card1__title {
+.main__card-notebook__title {
     font-weight: 700;
     font-size: 70px;
     line-height: 130%;
@@ -19,19 +19,19 @@
     line-height: 130%;
 }
 
-.card2__p {
+.main__card-book__p {
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 130%;
 }
 
-.card2__p-smallpart{
+.main__card-book-smalltext{
     font-size: 28px;
     font-weight: 400;
 }
 
-.card3__p {
+.main__card-time__p {
     font-weight: 500;
     font-size: 30px;
     line-height: 130%;
@@ -39,7 +39,7 @@
     margin-bottom: 14px;
 }
 
-.card10__p {
+.main__card-chemia__p {
     font-weight: 700;
     font-size: 30px;
     line-height: 130%;
@@ -53,11 +53,11 @@
     border-radius: 20px;
     padding: 24px 26px;
 }
-.blue__bord-smallpart {
+.blue__bord__smalltext {
     font-size: 30px;
 }
 
-.card7__p {
+.main__card-gifts__p {
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
@@ -95,11 +95,11 @@
 
 @media (max-width: 1024px) {
 
-    .card1__par {
+    .main__card-notebook__par {
         font-size: 20px;
     }
 
-    .card1__title {
+    .main__card-notebook__title {
         font-size: 40px;
         margin-bottom: 63px;
         padding-left: 80px;
@@ -109,23 +109,23 @@
         font-size: 40px;
     }
 
-    .card2__p {
+    .main__card-book__p {
         font-size: 30px;
     }
-    .card2__p-smallpart{
+    .main__card-book-smalltext{
         font-size: 26px;
         font-weight: 400;
     }
 
-    .card3__p {
+    .main__card-time__p {
         font-size: 24px;
         margin-bottom: 19px;
     }
 
-    .card7__p {
+    .main__card-gifts__p {
         font-size: 30px;
     }
-    .card10__p {
+    .main__card-chemia__p {
         font-size: 20px;
     }
 
@@ -134,7 +134,7 @@
         padding: 25px 24px 27px 32px;
     }
 
-    .blue__bord-smallpart {
+    .blue__bord__smalltext {
         font-size: 26px;
     }
 
@@ -151,11 +151,11 @@
 
 @media (max-width: 768px) {
 
-    .card1__par {
+    .main__card-notebook__par {
         font-size: 16px;
     }
 
-    .card1__title {
+    .main__card-notebook__title {
         font-size: 30px;
         margin-bottom: 82px;
         padding-left: 80px;
@@ -165,23 +165,23 @@
         font-size: 30px;
     }
 
-    .card2__p {
+    .main__card-book__p {
         font-size: 20px;
     }
-    .card2__p-smallpart{
+    .main__card-book-smalltext{
         font-size: 16px;
         font-weight: 400;
     }
 
-    .card3__p {
+    .main__card-time__p {
         font-size: 16px;
         margin-bottom: 19px;
     }
 
-    .card7__p {
+    .main__card-gifts__p {
         font-size: 16px;
     }
-    .card10__p {
+    .main__card-chemia__p {
         font-size: 16px;
     }
 
@@ -190,7 +190,7 @@
         padding: 26px 12px 30px 20px;
     }
 
-    .blue__bord-smallpart {
+    .blue__bord__smalltext {
         font-size: 12px;
     }
 
@@ -213,10 +213,10 @@
 }
 
 @media (max-width: 320px) {
-    .card1__par {
+    .main__card-notebook__par {
         font-size: 8px;
     }
-    .card1__title {
+    .main__card-notebook__title {
         font-size: 22px;
         padding-left: 0px;
         margin: 0 auto 189px;
@@ -226,23 +226,23 @@
         font-size: 20px;
     }
 
-    .card2__p {
+    .main__card-book__p {
         font-size: 16px;
     }
-    .card2__p-smallpart{
+    .main__card-book-smalltext{
         font-size: 14px;
         font-weight: 400;
     }
 
-    .card3__p {
+    .main__card-time__p {
         font-size: 12px;
         margin-bottom: 31px;
     }
 
-    .card7__p {
+    .main__card-gifts__p {
         font-size: 12px;
     }
-    .card10__p {
+    .main__card-chemia__p {
         font-size: 12px;
     }
 
@@ -250,7 +250,7 @@
         font-size: 12px;
         padding: 25px 7px 25px 11px;
     }
-    .blue__bord-smallpart {
+    .blue__bord__smalltext {
         font-size: 10px;
     }
 

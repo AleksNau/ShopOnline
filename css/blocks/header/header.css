@@ -27,7 +27,7 @@
     grid-area: menu;
 }
 
-.menu__text:before {
+.header__button-menu-text:before {
     content: "";
     background-image: url(./icons/menu.svg);
     background-size: 24px auto;
@@ -169,7 +169,7 @@
         background-position: center center;
     }
 
-    .icon__text {
+    .header__icon-text {
         display: none;
     }
 }}
