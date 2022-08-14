@@ -253,6 +253,14 @@
         padding-bottom: 10px;
     }
 }
+@media (max-width: 600px) {
+    .main {
+
+        gap: 10px;
+
+    }
+}
+
 
 @media (max-width: 320px){
     .main {

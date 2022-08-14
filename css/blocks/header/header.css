@@ -2,7 +2,7 @@
     padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(4,auto);
-    max-width: 100%;
+    max-width: 1920px;
     justify-content: space-between;
     align-items: center;
     grid-template-areas:
@@ -10,11 +10,8 @@
 }
 
 .header__logo {
-    background-image: url(./icons/logo.png);
-    height: 41px;
-    background-position: center;
-    background-repeat: no-repeat;
-    grid-area: logo;
+    width: 100%;
+    height: auto;
     min-width: 114px;
     max-width: 190px;
 }
@@ -37,7 +34,9 @@
     width: 24px;
     height: 24px;
 }
-
+.form__search {
+    grid-area: search;
+}
 
 .header__search {
     max-width: 757px;
@@ -45,7 +44,6 @@
     background: #EFEFEF;
     border-radius: 30px;
     border-style: none;
-    grid-area: search;
     padding: 14px 20px 18px 40px;
 }
 .header__user-menu {
@@ -84,7 +82,16 @@
     background-image: url(./icons/shopping_cart.svg);
     background-size: 30px 27px;
 }
-
+@media (max-width: 1501px){
+    .header {
+        padding-top: 40px;
+        grid-template-columns: repeat(4,auto);
+        grid-template-areas:
+            "logo logo . icons"
+            "menu search search search"
+    ;
+        gap: 34px 0;
+    }
 
 @media (max-width: 1024px){
     .header {
@@ -94,6 +101,7 @@
             "logo logo . icons"
             "menu search search search"
             ;
+        gap: 34px 0;
     }
     .header__button-menu {
 
@@ -103,6 +111,7 @@
 @media (max-width: 768px){
     .header {
         padding-top: 30px;
+        gap: 29px 0;
     }
     .header__icon {
         font-size: 12px;
@@ -133,14 +142,11 @@
     .header {
         padding-top: 20px;
         grid-template-columns: repeat(2,auto);
+        gap: 20px 0;
         grid-template-areas:
             "logo logo"
             "menu  icons"
             "search search ";
-    }
-
-    .header__logo {
-        width: 114px;
     }
 
     .header__search {
@@ -160,9 +166,10 @@
 
     .header__icon {
         width: 20px;
+        background-position: center center;
     }
 
     .icon__text {
         display: none;
     }
-}
+}}
