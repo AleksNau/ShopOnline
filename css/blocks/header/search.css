@@ -23,8 +23,9 @@ form {
     border-radius: 30px;
     cursor: pointer;
 }
-button:before {
-    content: "\f002";
+
+.header__search-button:before {
+    content: url("./icons/search.svg");
     font-family: Lato;
     font-size: 16px;
     color: #F9F0DA;

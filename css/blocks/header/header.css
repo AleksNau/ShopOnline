@@ -25,15 +25,34 @@
     border-style: none;
     background-repeat: no-repeat;
     grid-area: menu;
+    position: relative;
+
 }
 
+
 .header__button-menu-text:before {
-    content: "";
-    background-image: url(./icons/menu.svg);
-    background-size: 24px auto;
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+    content: url("./icons/sort.svg");
     width: 24px;
     height: 24px;
 }
+
+@media (max-width: 768px) {
+    .header__button-menu-text:before {
+        left: 16px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    .header__button-menu-text:before {
+        left: 10px;
+    }
+}
+
 .form__search {
     grid-area: search;
 }
