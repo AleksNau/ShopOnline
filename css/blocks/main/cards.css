@@ -17,8 +17,11 @@
     font-weight: 700;
     font-size: 60px;
     line-height: 130%;
-}
 
+}
+.number:not(:first-child){
+    margin-left: 30px;
+}
 .main__card-book__p {
     font-style: normal;
     font-weight: 700;
@@ -61,8 +64,8 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 130%;
-    margin-top: auto;
-    margin-bottom: auto;
+    /*margin-top: auto;
+    margin-bottom: auto;*/
 }
 
 .whitebord {
@@ -91,6 +94,7 @@
 .discount-inline{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 @media (max-width: 1024px) {
@@ -109,29 +113,36 @@
         font-size: 40px;
     }
 
+    .number:not(:first-child){
+        margin-left: 20px;
+    }
+
     .main__card-book__p {
         font-size: 30px;
     }
     .main__card-book-smalltext{
-        font-size: 26px;
+        font-size: 22px;
         font-weight: 400;
     }
 
     .main__card-time__p {
         font-size: 24px;
         margin-bottom: 19px;
+        width: 100%;
     }
 
     .main__card-gifts__p {
         font-size: 30px;
     }
     .main__card-chemia__p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .blue__bord {
-        font-size: 30px;
+        font-size: 32px;
         padding: 25px 24px 27px 32px;
+        white-space: pre-line;
+
     }
 
     .blue__bord__smalltext {
@@ -165,6 +176,10 @@
         font-size: 30px;
     }
 
+    .number:not(:first-child){
+        margin-left: 10px;
+    }
+
     .main__card-book__p {
         font-size: 20px;
     }
@@ -175,19 +190,21 @@
 
     .main__card-time__p {
         font-size: 16px;
-        margin-bottom: 19px;
+        margin-bottom: 34px;
     }
 
     .main__card-gifts__p {
         font-size: 16px;
     }
     .main__card-chemia__p {
-        font-size: 16px;
+        font-size: 12px;
+        font-weight: 500;
     }
 
     .blue__bord {
         font-size: 16px;
         padding: 26px 12px 30px 20px;
+        white-space: unset;
     }
 
     .blue__bord__smalltext {
@@ -224,6 +241,10 @@
 
     .number {
         font-size: 20px;
+    }
+
+    .number:not(:first-child){
+        margin-left: 8px;
     }
 
     .main__card-book__p {

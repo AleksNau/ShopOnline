@@ -162,7 +162,6 @@
     .main__card-dress{
         grid-column:3/4;
         grid-row: 5/7;
-
         padding: 10px;
     }
 

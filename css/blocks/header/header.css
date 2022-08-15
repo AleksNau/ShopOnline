@@ -68,7 +68,6 @@
 .header__user-menu {
 
     gap: 30px;
-    width: 1fr;
     grid-area: icons;
 }
 .header__user-menu {
@@ -103,7 +102,7 @@
     background-image: url(./icons/shopping_cart.svg);
     background-size: 30px 27px;
 }
-@media (max-width: 1501px){
+@media (max-width: 1500px){
     .header {
         padding-top: 40px;
         grid-template-columns: repeat(4,auto);
