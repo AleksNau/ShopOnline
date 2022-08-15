@@ -48,7 +48,7 @@
     line-height: 130%;
 }
 
-.blue__bord {
+.main__card-second-shoes__blue-board {
     font-weight: 400;
     font-size: 40px;
     line-height: 120%;
@@ -56,7 +56,7 @@
     border-radius: 20px;
     padding: 24px 26px;
 }
-.blue__bord__smalltext {
+.smalltext {
     font-size: 30px;
 }
 
@@ -138,14 +138,14 @@
         font-size: 18px;
     }
 
-    .blue__bord {
+    .main__card-second-shoes__blue-board {
         font-size: 32px;
         padding: 25px 24px 27px 32px;
         white-space: pre-line;
 
     }
 
-    .blue__bord__smalltext {
+    .smalltext {
         font-size: 26px;
     }
 
@@ -202,13 +202,13 @@
         padding-bottom: 8px;
     }
 
-    .blue__bord {
+    .main__card-second-shoes__blue-board {
         font-size: 16px;
         padding: 26px 12px 30px 20px;
         white-space: unset;
     }
 
-    .blue__bord__smalltext {
+    .smalltext {
         font-size: 12px;
     }
 
@@ -274,7 +274,7 @@
         white-space: nowrap;
     }
 
-    .blue__bord {
+    .main__card-second-shoes__blue-board {
         font-size: 12px;
         padding: 7px 25px 11px 25px;
         max-height: 36px;
@@ -283,7 +283,7 @@
 
     }
 
-    .blue__bord__smalltext {
+    .smalltext {
         font-size: 10px;
         padding-bottom: 7px;
     }

@@ -56,7 +56,7 @@
     }
 }
 
-.form__search {
+.header__form {
     grid-area: search;
 }
 
