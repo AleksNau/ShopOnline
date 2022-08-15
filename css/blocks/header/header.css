@@ -51,6 +51,9 @@
     .header__button-menu-text:before {
         left: 10px;
     }
+    .header__button-menu-text {
+        padding-left: 27px;
+    }
 }
 
 .form__search {
