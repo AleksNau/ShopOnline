@@ -195,4 +195,12 @@
     .header__icon-text {
         display: none;
     }
+    .header__button-menu {
+        width: 79px;
+        height: 30px;
+    }
+    .header__button-menu-text:before {
+        bottom: 4px;
+    }
+
 }}
