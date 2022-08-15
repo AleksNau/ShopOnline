@@ -186,7 +186,7 @@
     .main {
         padding-top: 50px;
         gap: 22px 20px;
-        grid-template-columns: repeat(4,minmax(130px,130px));
+        grid-template-columns: repeat(4,1fr);
         grid-template-rows: repeat(8,minmax(120px,130px));
     }
 
@@ -276,6 +276,7 @@
     .main__card-book {
         grid-column: 1/2;
         grid-row: 4/5;
+        padding: 10px;
     }
     .main__card-time {
         grid-column: 2/3;
@@ -320,6 +321,7 @@
     .main__card-chemia {
         grid-column: 2/3;
         grid-row: 10/11;
+        padding: 5px;
 
 
     }

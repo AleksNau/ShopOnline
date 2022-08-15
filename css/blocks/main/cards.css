@@ -197,8 +197,9 @@
         font-size: 16px;
     }
     .main__card-chemia__p {
-        font-size: 12px;
-        font-weight: 500;
+        font-size: 14px;
+        font-weight: 600;
+        padding-bottom: 8px;
     }
 
     .blue__bord {
@@ -249,6 +250,8 @@
 
     .main__card-book__p {
         font-size: 16px;
+        line-height: 110%;
+        max-width: 65px;
     }
     .main__card-book-smalltext{
         font-size: 14px;
@@ -258,6 +261,7 @@
     .main__card-time__p {
         font-size: 12px;
         margin-bottom: 31px;
+        font-weight: 700;
     }
 
     .main__card-gifts__p {
@@ -265,14 +269,23 @@
     }
     .main__card-chemia__p {
         font-size: 12px;
+        padding-left: 5px;
+        padding-bottom: 6px;
+        white-space: nowrap;
     }
 
     .blue__bord {
         font-size: 12px;
-        padding: 25px 7px 25px 11px;
+        padding: 7px 25px 11px 25px;
+        max-height: 36px;
+        border-radius: 8px;
+        text-align: center;
+
     }
+
     .blue__bord__smalltext {
         font-size: 10px;
+        padding-bottom: 7px;
     }
 
 
@@ -283,6 +296,10 @@
         text-align: center;
         border-radius: 6px;
         padding: 8px 0;
+    }
+
+    .discount-inline{
+        align-items: flex-end;
     }
 }
 
