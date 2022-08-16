@@ -41,18 +41,27 @@
 
 @media (max-width: 768px) {
     .header__button-menu-text:before {
-        left: 16px;
+        left: 14px;
     }
 
 
 }
+@media (max-width: 370px){
+.header__button-menu-text:before {
+    position: absolute;
+    left: 4px;
+    bottom: 10px;
+    content: url("./icons/sort320.svg");
+    width: 15px;
+    height: 19px;
+}}
 
 @media (max-width: 320px) {
     .header__button-menu-text:before {
         left: 10px;
     }
     .header__button-menu-text {
-        padding-left: 27px;
+        padding-left: 15px;
     }
 }
 
