@@ -103,6 +103,13 @@
 
 }
 
+@media (min-width:1024px) and (max-width: 1919px)  {
+    .main {
+        padding-top: 60px;
+        gap: 22px 30px;
+    }
+}
+
 @media (max-width: 1024px){
     .main {
         padding-top: 60px;
@@ -261,11 +268,11 @@
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 375px){
     .main {
         padding-top: 41px;
         gap: 20px;
-        grid-template-columns: repeat(2,minmax(130px,130px));
+        grid-template-columns: repeat(2,minmax(130px,1fr));
         grid-template-rows: repeat(12,minmax(120px,120px));
     }
 

@@ -161,7 +161,7 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 375px){
     .header {
         padding-top: 20px;
         grid-template-columns: repeat(2,auto);
