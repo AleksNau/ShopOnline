@@ -29,7 +29,6 @@
 
 }
 
-
 .header__button-menu-text:before {
     position: absolute;
     left: 30px;
@@ -43,10 +42,10 @@
     .header__button-menu-text:before {
         left: 14px;
     }
-
-
 }
-@media (max-width: 375px){
+
+@media (max-width: 375px) {
+
 .header__button-menu-text:before {
     position: absolute;
     left: 7px;
@@ -54,7 +53,8 @@
     content: url("./icons/sort320.svg");
     width: 15px;
     height: 19px;
-}}
+    }
+}
 
 @media (max-width: 320px) {
     .header__button-menu-text:before {
@@ -114,15 +114,15 @@
     background-image: url(./icons/shopping_cart.svg);
     background-size: 30px 27px;
 }
-@media (max-width: 1500px){
+
+@media (max-width: 1500px) {
+
     .header {
         padding-top: 40px;
         grid-template-columns: repeat(4,auto);
         grid-template-areas:
             "logo logo . icons"
-            "menu search search search"
-    ;
-        gap: 34px 0;
+            "menu search search search";
     }
 
 @media (max-width: 1024px){
@@ -131,20 +131,17 @@
         grid-template-columns: repeat(4,auto);
         grid-template-areas:
             "logo logo . icons"
-            "menu search search search"
-            ;
-        gap: 34px 0;
-    }
-    .header__button-menu {
-
+            "menu search search search";
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+
     .header {
         padding-top: 30px;
         gap: 29px 0;
     }
+
     .header__icon {
         font-size: 12px;
         line-height: 130%;
@@ -170,7 +167,8 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
+
     .header {
         padding-top: 20px;
         grid-template-columns: repeat(2,auto);
@@ -212,4 +210,5 @@
         bottom: 4px;
     }
 
-}}
+    }
+}
