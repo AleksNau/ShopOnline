@@ -97,6 +97,79 @@
     align-items: center;
 }
 
+@media (min-width:1024px) and (max-width: 1919px)  {
+    .discount {
+        background-color: #FFBD13;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        min-width: 60px;
+        align-items: center;
+        border-radius: 150%;
+        line-height: 60px;
+    }
+
+    .main__card-notebook__par {
+        font-size: 20px;
+    }
+
+    .main__card-notebook__title {
+        font-size: 40px;
+        margin-bottom: 63px;
+        padding-left: 80px;
+    }
+
+    .number {
+        font-size: 40px;
+    }
+
+    .number:not(:first-child){
+        margin-left: 20px;
+    }
+
+    .main__card-book__p {
+        font-size: 30px;
+    }
+    .main__card-book-smalltext{
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .main__card-time__p {
+        font-size: 24px;
+        margin-bottom: 19px;
+        width: 100%;
+    }
+
+    .main__card-gifts__p {
+        font-size: 30px;
+    }
+    .main__card-chemia__p {
+        font-size: 18px;
+    }
+
+    .main__card-second-shoes__blue-board {
+        font-size: 32px;
+        padding: 25px 24px 27px 32px;
+        white-space: pre-line;
+
+    }
+
+    .smalltext {
+        font-size: 26px;
+    }
+
+
+    .whitebord {
+        font-size: 30px;
+        max-width: 513px;
+        max-height: 83px;
+        text-align: center;
+        border-radius: 16px;
+        padding: 24px 0;
+    }
+}
+
 @media (max-width: 1024px) {
 
     .main__card-notebook__par {
