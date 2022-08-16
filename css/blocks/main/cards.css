@@ -233,7 +233,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
     .main__card-notebook__par {
         font-size: 16px;
