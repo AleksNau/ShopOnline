@@ -303,6 +303,14 @@
     }
 }
 
+@media (max-width: 700px){
+    .main__card-time__p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+}
+
+
 @media (max-width: 320px) {
     .main__card-notebook__par {
         font-size: 8px;

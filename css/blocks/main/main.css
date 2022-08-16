@@ -109,6 +109,84 @@
         gap: 22px 30px;
     }
 }
+@media (max-width: 1200px){
+    .main {
+        padding-top: 60px;
+        gap: 22px 30px;
+        grid-template-columns: repeat(4,minmax(130px,1fr));
+        grid-template-rows: repeat(8,minmax(120px,202px));
+    }
+
+    .main__card {
+
+    }
+
+    .main__card-notebook {
+        grid-column: 1/5;
+        grid-row: 1/3;
+    }
+    .main__card-book {
+        grid-row: 3/4;
+        padding: 20px;
+
+    }
+    .main__card-time {
+        grid-row: 3/4;
+        padding: 10px;
+    }
+    .main__card-red-sneakers {
+        grid-column: 1/3;
+        grid-row: 4/5;
+        padding: 10px;
+    }
+
+    .main__card-second-shoes{
+        grid-column: 3/5;
+        grid-row: 3/5;
+        padding: 20px;
+    }
+
+    .main__card-gifts{
+        grid-column: 1/3;
+        grid-row: 5/6;
+        padding: 30px;
+    }
+
+    .main__card-december-sales{
+        grid-column: 1/3;
+        grid-row: 6/7;
+        padding: 10px;
+    }
+
+    .main__card-new-year{
+        grid-column:1/5;
+        grid-row: 7/9;
+        padding: 39px 30px;
+
+    }
+
+    .main__card-dress{
+        grid-column:3/4;
+        grid-row: 5/7;
+        padding: 10px;
+    }
+
+    .main__card-chemia{
+
+        grid-column:4/5;
+        grid-row: 5/6;
+        padding: 20px;
+    }
+
+    .main__card-decorations {
+        grid-column:4/5;
+        grid-row: 6/7;
+
+        padding-right: 23px;
+        padding-bottom: 10px;
+    }
+
+}
 
 @media (max-width: 1024px){
     .main {
@@ -204,9 +282,12 @@
     }
     .main__card-book {
         grid-row: 3/4;
+        padding: 10px;
     }
     .main__card-time {
         grid-row: 3/4;
+        display: flex;
+        justify-content: space-between;
     }
     .main__card-red-sneakers {
         grid-column: 1/3;

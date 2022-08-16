@@ -46,10 +46,10 @@
 
 
 }
-@media (max-width: 370px){
+@media (max-width: 375px){
 .header__button-menu-text:before {
     position: absolute;
-    left: 4px;
+    left: 7px;
     bottom: 10px;
     content: url("./icons/sort320.svg");
     width: 15px;
@@ -156,7 +156,7 @@
     }
 
     .header__icon:nth-child(1) {
-        background-size: 20px auto;
+        background-size: 30px auto;
     }
 
     .header__icon:nth-child(2) {
